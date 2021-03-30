@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Menon Health Tech Pvt Ltd.',
+      title: 'Covid Health App',
       theme: ThemeData(
         textTheme: Theme.of(context).textTheme.apply(fontFamily: 'halvetic'),
       ),

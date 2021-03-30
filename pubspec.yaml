@@ -55,16 +55,16 @@ dependencies:
   adobe_xd: 1.0.0+1
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.7.3"
   flutter_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 flutter_icons:
-  image_path: "icon/icon.png"
-  image_path_android: "Images/logo.png"
-  android: true
+  android: "launcher_icon"
   ios: true
+  image_path: "Images/logo.png"
 
 # The following section is specific to Flutter.
 flutter:

@@ -34,7 +34,7 @@ class _NavigationDrawerHeaderState extends State<NavigationDrawerHeader> {
     storage
         .ref()
         .child("ProfileImages/")
-        .child(phone + ".jpeg")
+        .child(phone)
         .getData(10000000)
         .then((data) => setState(() {
               imageBytes = data;
